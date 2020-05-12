@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
-    "cypress:run": "node_modules/.bin/cypress run --browser chrome"
+    "cypress:run": "node_modules/.bin/cypress run --browser chrome",
+    "cypress:ui": "node_modules/.bin/cypress run --headed",
+    "cypress:headless": "node_modules/.bin/cypress run"
   },
   "author": "Razvan Vancea",
   "license": "ISC",
