@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  cypress:
+    image: "cypress/included:3.4.0"
+    environment:
+      - CYPRESS_baseUrl=http://executeautomation.com/demosite/Login.html
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
